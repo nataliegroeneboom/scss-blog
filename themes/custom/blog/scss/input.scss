@@ -1,0 +1,93 @@
+//
+// partials
+
+@import 'partials/variables',
+        'partials/mixins',
+        'partials/placeholders';
+
+
+
+
+
+body{
+  padding-top: 0px !important;
+  background-color: $background-color;
+  font-family: $font;
+}
+
+.testing{
+  width: percentage(2/7);
+}
+
+
+
+
+
+h2{
+  font-size: $font-size-subheader;
+  text-transform: uppercase;
+}
+//   header
+
+#block-blog-branding{
+  div{
+    @include center;
+  }
+  p{
+    text-align: center;
+  }
+}
+
+#site-name{
+
+  text-decoration: none;
+    p{
+      font-size: $font-size-header;
+    }
+}
+
+//    NAVIGATION MARKUP
+#block-blog-main-menu{
+  background: white;
+  height: 50px;
+  .main-menu{
+
+li{
+        list-style-type: none;
+        width: 150px;
+        float: right;
+
+
+a{
+            text-decoration: none;
+            display: block;
+            font-size: $font-size-content;
+            &:hover{
+              text-decoration: none;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+
+}
+
+//    top content
+.top-layout{
+  @include flex-parent;
+  .layout-sidebar-first{
+  @extend %block;
+  }
+
+}
+
+//    bottom blocks
+
+#bottom-teaser{
+  @include flex-parent;
+  div{
+    flex-grow: 0;
+    flex-basis: 33%;
+  }
+}

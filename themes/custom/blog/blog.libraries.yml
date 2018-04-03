@@ -1,9 +1,18 @@
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i': { type: external}
+
+
+
+
+
 global:
   version: 1.x
   css:
     theme:
-      css/style.css: {}
-    
+      css/input.css: {}
+
   js:
     js/blog.js: {}
   dependencies:

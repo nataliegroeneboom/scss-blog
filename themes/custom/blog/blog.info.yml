@@ -1,8 +1,9 @@
 name: Blog
 type: theme
-base theme: bootstrap
+base theme: false
+core: 8.x
 description: A custom theme for this website where I will learn how to use SCSS
-# core: 8.x
+
 regions:
   header: Header
   primary_menu: 'Primary menu'
@@ -24,7 +25,5 @@ regions:
   footer: Footer
   page_bottom: Page bottom
 libraries:
-
-# Information added by Drupal.org packaging script on 2016-01-29
-version: 8.x
-core: '8.x'
+  - 'blog/global'
+  - 'blog/fonts'
