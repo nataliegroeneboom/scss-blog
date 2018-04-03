@@ -1,0 +1,30 @@
+name: Blog
+type: theme
+base theme: bootstrap
+description: A custom theme for this website where I will learn how to use SCSS
+# core: 8.x
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  slideshow: 'Slideshow'
+  page_top: Page top
+  sidebar_first: Left sidebar
+  sidebar_second: Right sidebar
+  content_top: Content top
+  content: Main content
+  content_bottom: Content bottom
+  bottom_first: Bottom first
+  bottom_middle: Bottom middle
+  bottom_last: Bottom last
+  bottom_1: Bottom 1
+  bottom_2: Bottom 2
+  bottom_3: Bottom 3
+  bottom_4: Bottom 4
+  footer: Footer
+  page_bottom: Page bottom
+libraries:
+
+# Information added by Drupal.org packaging script on 2016-01-29
+version: 8.x
+core: '8.x'
